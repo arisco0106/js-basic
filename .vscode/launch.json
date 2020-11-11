@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            //"url": "http://localhost:8080", //웹서버가 있는경우
+            //"webRoot": "${workspaceFolder}/index.html"//웹서버가 있는경우
+            "file": "${workspaceRoot}/index.html" // 웹서버가 없는경우
+        }
+    ]
+}
